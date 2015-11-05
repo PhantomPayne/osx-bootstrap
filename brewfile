@@ -1,0 +1,62 @@
+cask 'google-chrome'
+cask 'spotify'
+
+# osx customization
+cask 'karabiner'
+cask 'hammerspoon'
+cask 'seil'
+cask 'bettertouchtool'
+
+# shell
+cask 'iterm2'
+tap 'caskroom/fonts'
+cask 'font-inconsolata-dz-for-powerline'
+
+brew 'git'
+brew 'zsh'
+brew 'fzf'
+brew 'tmux'
+brew 'mobile-shell'
+brew 'the_silver_searcher'
+brew 'wget'
+brew 'coreutils'
+brew 'scmpuff'
+brew 'tree'
+
+brew 'pwgen'
+
+# quick looks
+cask 'qlcolorcode'
+cask ' qlstephen'
+cask 'qlmarkdown'
+cask 'quicklook-json'
+cask 'qlprettypatch' 
+cask 'quicklook-csv'
+cask 'betterzipql'
+cask 'qlimagesize' 
+cask 'webpquicklook'
+cask 'suspicious-package'
+
+
+# communication tools
+cask 'slack'
+cask 'skype'
+
+# general dev
+brew 'mysql'
+cask 'sequel-pro'
+cask 'virtualbox'
+cask 'vagrant'
+
+
+# android dev
+cask 'java' unless system '/usr/libexec/java_home --failfast'
+cask 'android-studio'
+cask 'genymotion'
+
+# python dev
+cask 'pycharm-ce'
+brew 'python'
+
+# node dev
+brew 'node'
